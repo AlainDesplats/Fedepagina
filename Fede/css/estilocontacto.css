@@ -10,14 +10,6 @@
     height: 300px;
 }
 
-.store-info ul{
-    list-style-type: none;
-}
-
-.store h3{
-    border-bottom: 2px solid black;
-}
-
 .title {
     font-size: 3rem;
     margin: 0;
@@ -29,28 +21,4 @@
     font-size: 1.2rem;
     margin: 0;
     color: white;
-}
-
-.store-info {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    background-color: #f9f9f9;
-}
-
-.store {
-    max-width: 400px;
-}
-
-.store h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-.store p {
-    line-height: 1.5;
-}
-
-.store p strong {
-    font-weight: bold;
 }

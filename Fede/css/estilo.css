@@ -99,8 +99,14 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    background-color: rgb(87, 87, 87);
+    text-align: center;
+    padding: 50px 20px;
+    font-size: 24px;
+    color: white;
 }
+/* Agrega aquí el carrusel de videos */
+
 
 /* Agrega aquí el carrusel de videos */
 
@@ -151,16 +157,17 @@ nav ul li a {
 .secciones {
     display: flex;
     justify-content: space-around;
-    background-color: gray;
     padding: 50px 0;
+    background-color: aquamarine;
 }
 
 .seccion {
-    width: 18%;
-    height: 200px;
+    width: 290px;
+    height: 300px;
     background-color: black;
     color: white;
     text-align: center;
+    align-items: center;
     line-height: 200px;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -196,6 +203,25 @@ footer {
     padding: 20px 0;
 }
 
-.footer-logo img {
-    height: 50px;
+.footer-logo {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+    padding: 0;
 }
+
+.footer-logo img {
+    height: 30px;
+}
+
+.footer-logo p {
+    font-weight: bold;
+    font-size: 15px;
+    
+
+}
+
+
+
